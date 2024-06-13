@@ -1,3 +1,12 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #222;
+}
+
 body.light-mode {
     background-color: #fff;
     color: #333;
@@ -5,19 +14,19 @@ body.light-mode {
 
 body.light-mode header,
 body.light-mode footer {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Adjust as needed */
 }
 
 body.light-mode h1 {
-    color: darkgray; 
+    color: darkgray; /* Adjust as needed */
 }
 
 body.light-mode p {
-    color: gray; 
+    color: gray; /* Adjust as needed */
 }
 
 body.light-mode .form-group label {
-    color: #555; 
+    color: #555; /* Adjust as needed */
 }
 
 body.light-mode input[type="text"],
