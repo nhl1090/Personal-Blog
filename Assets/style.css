@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: darkgray;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  p {
+    color: gray;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  /* Class selector */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* ID selector */
+  #main-header {
+    background-color: lightgray;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+  }
+  
+  /* Descendant selector */
+  .container p {
+    font-size: 1.2em;
+  }
+  
+  /* Pseudo-class selector */
+  a:hover {
+    color: red;
+  }
+  
+  /* Universal selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Attribute selector */
+  input[type="text"] {
+    padding: 10px;
+    border
+  
