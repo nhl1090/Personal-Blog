@@ -1,52 +1,58 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: darkgray;
     text-align: center;
     padding: 20px;
-  }
-  
-  p {
+}
+
+p {
     color: gray;
     line-height: 1.6;
     margin: 20px;
-  }
-  
-  /* Class selector */
-  .container {
+}
+
+/* Class selector */
+.container {
     width: 80%;
     margin: 0 auto;
-  }
-  
-  /* ID selector */
-  #main-header {
+}
+
+/* ID selector */
+#main-header {
     background-color: lightgray;
     padding: 10px;
     border-bottom: 1px solid silver;
-  }
-  
-  /* Descendant selector */
-  .container p {
+}
+
+/* Descendant selector */
+.container p {
     font-size: 1.2em;
-  }
-  
-  /* Pseudo-class selector */
-  a:hover {
+}
+
+/* Pseudo-class selector */
+a:hover {
     color: red;
-  }
-  
-  /* Universal selector */
-  * {
+}
+
+/* Universal selector */
+* {
     box-sizing: border-box;
-  }
-  
-  /* Attribute selector */
-  input[type="text"] {
+}
+
+/* Attribute selector */
+input[type="text"], textarea {
     padding: 10px;
-    border
-  
+    border: 1px solid silver;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* Form section styles */
+.form-section {
+    padding: 2em;
+    backgroun
