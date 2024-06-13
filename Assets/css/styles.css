@@ -1,0 +1,8 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #222;
+}

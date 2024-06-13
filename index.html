@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="./Assets/css/form.css">
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+    <style>
+        /* Style for dark mode */
+        body.dark-mode {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Style for light mode */
+        body.light-mode {
+            background-color: #fff;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="light-mode">
+    <header id="main-header">
+        <h1>Neil's Blog</h1>
+        <button id="toggle-mode">Toggle Mode</button>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <h2>Create a New Blog Post</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="blog-title">Blog Title:</label>
+                    <input type="text" id="blog-title" name="blog-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="blog-content">Blog Content:</label>
+                    <textarea id="blog-content" name="blog-content" rows="10" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>Contact me at <a href="mailto:neilhdz24@gmail.com">neilhdz24@gmail.com</a></p>
+    </footer>
+    <script type="module" src="./Assets/js/form.js"></script>
+    <script type="module" src="./Assets/js/logic.js"></script>
+</body>
+</html>
