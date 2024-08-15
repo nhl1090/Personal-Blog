@@ -25,7 +25,7 @@ NA
 This project is licensed under the ![MIT license](https://opensource.org/license/MIT).
 
 
-## Credits
+## Contributing
 - Atlassian
     - (https://www.atlassian.com/git)
 - edX
