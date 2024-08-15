@@ -1,7 +1,7 @@
 # Personal Blog
 
 ## Description
-
+This application is a two-page website that allows you to render blog posts/notes and switch from light/dark mode. It's simple, mobile-friendly, and will be a basic feature for various future applications. Enjoy!
 
 
 ## Table of Contents
@@ -18,8 +18,10 @@ NA
 
 
 ## Usage
+https://nhl1090.github.io/Personal-Blog/
 
-
+![Screenshot of home scren](./Assets/images/home%20screen.png.png)
+![Screenshot of blog screen](./Assets/images/blog%20screen.png)
 
 ## License
 This project is licensed under the ![MIT license](https://opensource.org/license/MIT).
